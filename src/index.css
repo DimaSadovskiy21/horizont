@@ -1,0 +1,32 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html,
+body,
+#root {
+  max-height: 100vh;
+  height: 100%;
+}
+
+body {
+  padding: 10px;
+  background-color: var(--background);
+  font-size: var(--default-font);
+  color: var(--black);
+  overflow-y: scroll;
+}
+
+:root {
+  --background: #e8e8e8;
+  --dark-gray: #212121;
+  --gray: #c3c6ce;
+  --black: #000000;
+  --white: #fff;
+  --overline: rgba(0, 0, 0, .5);
+  --large-font: 32px;
+  --default-font: 18px;
+  --small-font: 14px;
+}
